@@ -20,4 +20,20 @@ body {
   .text-glow {
     text-shadow: 1px 0px 20px #54e0b1;
   }
+  .gradient-text {
+    background: #ffffff;
+    background: -webkit-radial-gradient(
+      circle farthest-corner at center center,
+      #ffffff 0%,
+      #db2877 100%
+    );
+    background: -moz-radial-gradient(
+      circle farthest-corner at center center,
+      #ffffff 0%,
+      #db2877 100%
+    );
+    background: radial-gradient(circle farthest-corner at center center, #ffffff 0%, #db2877 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }

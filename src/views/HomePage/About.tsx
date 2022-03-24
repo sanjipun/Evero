@@ -9,7 +9,7 @@ const About: React.FC<AboutProps> = () => {
       <div className="container mx-auto px-4 sm:px-10">
         <h1 className="text-center text-4xl font-medium font-audiowide relative">
           <Numbering>01</Numbering>
-          Evero Autostaking Protocol
+          <span className="gradient-text">Evero Autostaking Protocol</span>
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-24">
           <div className="text-center leading-65 flex items-center flex-col justify-center">

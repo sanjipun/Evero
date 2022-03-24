@@ -4,11 +4,11 @@ import React from 'react';
 
 const Tokenomics: React.FC = () => {
   return (
-    <section className="text-white py-36">
+    <section id="tokenomics" className="text-white py-36">
       <div className="container mx-auto px-4 sm:px-10">
         <h1 className="text-4xl text-center font-audiowide relative">
           <Numbering>03</Numbering>
-          TOKENOMICS
+          <span className="gradient-text">TOKENOMICS</span>
         </h1>
         <p className="mx-auto max-w-xl text-center py-14">
           $EVERO is a BEP-20 token with an elastic supply that rewards holders using a positive

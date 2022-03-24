@@ -5,7 +5,7 @@ const FindUs: React.FC = () => {
   return (
     <section className="pt-28 pb-36 text-white">
       <div className="container mx-auto">
-        <h1 className="py-10 text-4xl text-center font-audiowide">Find US</h1>
+        <h1 className="py-10 text-4xl text-center font-audiowide gradient-text">Find US</h1>
         <div className="max-w-lg mx-auto place-items-center grid grid-cols-3 gap-10">
           {SOCIALS.map((social) => (
             <Link key={social.title} to={social.link}>

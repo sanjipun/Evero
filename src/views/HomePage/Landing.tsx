@@ -5,8 +5,8 @@ const Landing: React.FC = () => {
     <div className="pt-14">
       <section className="container mx-auto px-4 sm:px-10 py-52 text-white grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl leading-10 md:leading-65 font-medium">
-            The Best Auto-Staking & Auto-Compounding Protocol in Crypto with Multichain Farming
+          <h1 className="text-xl sm:text-2xl md:text-4xl leading-10 md:leading-65 font-medium gradient-text">
+            Automatic Staking and Compounding in Your Wallet!{' '}
           </h1>
           <ul className="mt-12 leading-8 list-disc list-inside">
             <li>Fixed APY - 88,488.6%</li>

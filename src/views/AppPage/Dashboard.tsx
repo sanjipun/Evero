@@ -1,19 +1,23 @@
 import ProjectInfoCard from '@components/ProjectInfoCard';
 import React from 'react';
+import EstimateReturns from './EstimateReturns';
 
 const Dashboard: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-20">
-      {PROJECT_INFOS.map((info) => (
-        <ProjectInfoCard
-          key={info.title}
-          title={info.title}
-          value={info.value}
-          moreInfo={info.moreInfo}
-          priceChange={info.priceChange}
-        />
-      ))}
-    </div>
+    <section className="my-20 animate-fade-in">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {PROJECT_INFOS.map((info) => (
+          <ProjectInfoCard
+            key={info.title}
+            title={info.title}
+            value={info.value}
+            moreInfo={info.moreInfo}
+            priceChange={info.priceChange}
+          />
+        ))}
+      </div>
+      <EstimateReturns />
+    </section>
   );
 };
 

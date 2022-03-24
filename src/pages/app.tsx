@@ -30,7 +30,8 @@ const app: React.FC = () => {
                   {({ selected }) => (
                     <div
                       className={`${
-                        selected && 'bg-pink-600 bg-opacity-50 rounded-md'
+                        selected &&
+                        'bg-white bg-opacity-10 border border-white border-opacity-20 text-pink-600 rounded-md'
                       } flex items-center px-4 py-2`}>
                       {tab.icon}
                       <span className="ml-1"> {tab.title}</span>

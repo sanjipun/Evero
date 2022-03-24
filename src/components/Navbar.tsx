@@ -1,9 +1,9 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Links = [
   { title: 'Whitepaper', link: '/whitepaper' },
-  { title: 'Tokenomics', link: '/tokenomics' },
   { title: 'Telegram', link: '/telegram' },
   { title: 'Twitter', link: '/twitter' },
 ];
@@ -19,6 +19,16 @@ const Navbar: React.FC = () => {
           Ev<span className="skew-y-3">e</span>ro
         </Link>
         <div className="hidden md:block">
+          <ScrollLink
+            className="cursor-pointer"
+            to="tokenomics"
+            smooth={true}
+            offset={50}
+            duration={500}
+            isDynamic={true}
+            spyThrottle={500}>
+            Tokenomics
+          </ScrollLink>
           {Links.map((link) => (
             <NavLink link={link.link} key={link.title}>
               {link.title}

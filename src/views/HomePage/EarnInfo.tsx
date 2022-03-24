@@ -7,7 +7,7 @@ const EarnInfo: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-10">
         <h1 className="text-4xl font-audiowide relative">
           <Numbering>02</Numbering>
-          How much can I earn?
+          <span className="gradient-text">How much can I earn?</span>
         </h1>
 
         <h1 className="max-w-2xl mx-auto mt-16 text-3xl">
