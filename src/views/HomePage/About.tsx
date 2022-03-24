@@ -14,7 +14,7 @@ const About: React.FC<AboutProps> = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-24">
           <div className="text-center leading-65 flex items-center flex-col justify-center">
             <h1 className="text-5xl sm:text-7xl text-EveroGreen text-glow font-audiowide">
-              88,488.6%
+              125440.86%
             </h1>
             <h3>Fixed Staking APY</h3>
           </div>

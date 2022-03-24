@@ -27,7 +27,7 @@ const Estimate: React.FC<EstimateProps> = () => {
   const [EveroBalance, setEveroBalance] = React.useState<number>(0);
 
   const getValue = () => {
-    setEveroBalance(getRateForXDays(data?.days) * data?.amount);
+    setEveroBalance((getRateForXDays(data?.days) * data?.amount) / 100 + data?.amount);
   };
   React.useEffect(() => {
     getValue();
@@ -44,7 +44,7 @@ const Estimate: React.FC<EstimateProps> = () => {
         </div>
         <div>
           <h1 className="text-white text-opacity-70">APY</h1>
-          <span className="text-2xl">88488.6%</span>
+          <span className="text-2xl">125440.86%</span>
         </div>
         <div>
           <h1 className="text-white text-opacity-70">Your EVERO Balance</h1>
@@ -71,7 +71,7 @@ const Estimate: React.FC<EstimateProps> = () => {
       <div className="mt-10 flex flex-col">
         <span className="py-10">
           $Evero Balance:{' '}
-          <span className="ml-5 text-2xl text-EveroGreen">{EveroBalance} $EVERO</span>
+          <span className="ml-5 text-2xl text-EveroGreen">{EveroBalance.toFixed(5)} $EVERO</span>
         </span>
         <span>
           Total Balance in USD: <span className="ml-5 text-2xl text-EveroGreen"> $100,000 USD</span>

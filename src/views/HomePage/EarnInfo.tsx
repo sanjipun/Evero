@@ -11,8 +11,8 @@ const EarnInfo: React.FC = () => {
         </h1>
 
         <h1 className="max-w-2xl mx-auto mt-16 text-3xl">
-          At the end of the year and with $1 USD of $EVERO invested. You can earn up to $88,488.6
-          USD of $EVERO at 88,488.6% APY*.
+          At the end of the year and with $1 USD of $EVERO invested. You can earn up to $125440.86
+          USD of $EVERO at 125440.86% APY*.
         </h1>
         <p className="text-white text-xs text-opacity-70 mt-20 max-w-lg mx-auto">
           *Earnings are calculated in a scenario where the RFV sustains the rebase reward for 365

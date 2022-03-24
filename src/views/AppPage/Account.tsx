@@ -10,7 +10,7 @@ const Account: React.FC = () => {
     },
     {
       title: 'APY',
-      value: '88488.6%',
+      value: '125440.86%',
     },
     {
       title: 'Your Balance',

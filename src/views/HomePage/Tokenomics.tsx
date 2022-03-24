@@ -34,7 +34,7 @@ const TOKENOMICS: { title: string; description: string }[] = [
   {
     title: 'Automatic LP',
     description:
-      "5% of the trading fees return to the liquidity ensuring $TITANO's increasing collateral value.",
+      "5% of the trading fees return to the liquidity ensuring $EVERO's increasing collateral value.",
   },
   {
     title: 'Risk Free Value',
