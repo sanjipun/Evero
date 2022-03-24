@@ -11,7 +11,7 @@ const Landing: React.FC = () => {
           <ul className="mt-12 leading-8 list-disc list-inside">
             <li>Fixed APY - 88,488.6%</li>
             <li>Automatic Staking and Compounding in Your Wallet!</li>
-            <li>Get Rewards Every Hour / 24 times Daily!</li>
+            <li>Get Rewards Every 30 minutes / 48 times Daily!</li>
             <li>Multichain Farming to support high reward.</li>
             <li>Burning 2 - 4% supply every week.</li>
           </ul>
